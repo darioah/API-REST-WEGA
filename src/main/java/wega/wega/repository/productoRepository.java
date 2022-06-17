@@ -5,10 +5,14 @@
  */
 package wega.wega.repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import wega.wega.entity.producto;
+
 /**
  *
  * @author sebastian
  */
-public class productoRepository {
+public interface productoRepository extends JpaRepository <producto,String> {
     
 }
